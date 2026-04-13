@@ -1,5 +1,8 @@
 # riiskit standard .gitignore
 
+# Architecture specs are local-only. Never push _arch/.
+_arch/
+
 # Python
 __pycache__/
 *.py[cod]
